@@ -44,7 +44,7 @@ The result should look something like this:
 ratings should have the id `ratings_submit`.
 * Both pieces of the provided code, Part 1 and Part 2 of this assignment, should be placed inside the same `form_tag`.
 
-> ![TIP]
+> [!TIP]
 > **Adding parameters to existing RESTful routes**
 > 
 > The current RottenPotatoes views use the Rails-provided "resource-based routes" helper `movies_path` to generate the 
