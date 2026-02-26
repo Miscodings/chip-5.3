@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby "3.3.8"
-
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.5"
 
@@ -42,10 +40,11 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
+  gem 'rubocop', require: false
   gem "sqlite3", ">= 1.4"
 
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri windows ]
+  gem 'debug', '~> 1.11', '>= 1.11.1', platforms: %i[ mri windows ]
 end
 
 group :development do
